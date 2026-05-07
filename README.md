@@ -1,4 +1,4 @@
-# Brain Tumor Classification
+# Brain Tumor Classification Using Deep Learning
 
 ## Overview
 This project presents a deep learning-based brain tumor classification system using MRI images and transfer learning with the VGG16 architecture. The model classifies brain MRI scans into four categories and is deployed using Streamlit for interactive predictions.
@@ -48,3 +48,57 @@ The model was trained on a publicly available Brain Tumor MRI dataset containing
 - PIL
 
 ## Project Structure
+
+```text
+Brain-Tumor-Classification/
+│
+├── app.py
+├── Brain_Tumor_Classification.ipynb
+├── requirements.txt
+├── README.md
+├── LICENSE
+├── AIML_Project_Report_PPT.pdf
+└── Research_Paper.pdf
+```
+
+---
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Smruti2205/Brain-Tumor-Classification.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd Brain-Tumor-Classification
+```
+
+### 3. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Streamlit application
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## Future Improvements
+- Integration with advanced CNN architectures
+- Multi-sequence MRI analysis
+- Tumor segmentation
+- Clinical deployment support
+- Explainable AI visualizations
+
+---
+
+## License
+This project is licensed under the MIT License.
